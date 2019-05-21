@@ -21,12 +21,4 @@ class Post < ActiveRecord::Base
       end
     end
 
-
-    # def clickbait
-    #   if self.title && self.title.match(/(Won't Believe|Secret|Top \d|Guess)/i)
-    #     true
-    #   else
-    #     errors.add(:title, "try again")
-    #   end
-    # end
 end
